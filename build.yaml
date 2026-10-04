@@ -18,3 +18,14 @@
 #     artifact-name: corne_left_with_studio
 #
 ---
+include:
+  - board: nice_nano_v2
+    shield: msplit_left
+    snippet: studio-rpc-usb-uart
+    cmake-args: -DCONFIG_ZMK_STUDIO=y
+  - board: nice_nano_v2
+    shield: msplit_right
+  - board: nice_nano_v2
+    shield: msplit_macro
+  - board: nice_nano_v2
+    shield: settings_reset

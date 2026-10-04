@@ -1,0 +1,8 @@
+config SHIELD_MSPLIT_LEFT
+    def_bool $(shields_list_contains,msplit_left)
+
+config SHIELD_MSPLIT_RIGHT
+    def_bool $(shields_list_contains,msplit_right)
+
+config SHIELD_MSPLIT_MACRO
+    def_bool $(shields_list_contains,msplit_macro)
