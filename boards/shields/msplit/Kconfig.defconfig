@@ -1,5 +1,8 @@
 if SHIELD_MSPLIT_LEFT
 
+config ZMK_KEYBOARD_NAME
+    default "MsplitX3"
+
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
